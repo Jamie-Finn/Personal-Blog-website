@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:600italic);
+
+@media handheld, screen and (max-width: 960px) {
+        .navbar-brand {
+        outline: 0 !important;
+        margin-top: 2%;
+        font-size: 30px !important;
+    }
+        .navbar-nav li a {
+        border: none !important;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+    }
+        .navbar-collapse .navbar-nav li a:hover {
+        border: none !important;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+        height: 40px !important;
+    }
+    #demo-wrapper {
+        width: auto;
+        height: auto;
+    }
+    #mapBox {
+        width: auto;
+        float: none;
+    }
+    #container {
+        height: 310px;
+    }
+    #sideBox {
+        float: none;
+        width: auto;
+        margin-top: 0;
+        border-left: none;
+        border-top: 1px solid silver;
+    }
+    /*
+    .selector {
+        width: 300px;
+    }
+    .selector .custom-combobox .custom-combobox-input {
+        width: 190px;
+    }
+    .selector .custom-combobox-toggle {
+        left: 226px;
+    }
+    .selector #btn-next-map {
+        left: 310px;
+    }
+    */
+
+}
+
+body {
+	margin-top: 60px !important; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+	background-color: #eee;
+}
+
+#contentMain {
+	background-color: #ffffff;
+	padding-top: 15px;
+	box-shadow: 1px 1px 2px #888888;
+}
+
+.navbar-brand {
+	font-family: 'Cabin', sans-serif !important;
+    outline: 0;
+}
+
+.navbar-collapse .navbar-nav li a:hover {
+    border-bottom: 4px solid #333;
+    -webkit-transition: all .15s;
+    -moz-transition: all .15s;
+    -ms-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
+    height: 50px;
+}
+.navbar-nav li a {
+    outline: 0;
+    -webkit-transition: all .15s;
+    -moz-transition: all .15s;
+    -ms-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
+}
+.shutterIcon {
+	font-size: 30px;
+}
+
+#blog_title {
+	font-family: 'Cabin', sans-serif !important;
+	margin-left: 10px;
+}
+#about_title {
+	font-family: 'Cabin', sans-serif !important;
+	margin-left: 15px;
+}
+#portfolio_title {
+    font-family: 'Cabin', sans-serif !important;
+    margin-left: 15px;
+}
+#contact_title {
+    font-family: 'Cabin', sans-serif !important;
+    margin-left: 20px;
+}
+
+footer {
+	margin: 50px 0;
+}
+#footerLink {
+	font-size: 20px;
+}
+#footerLink:hover {
+	text-decoration: none;
+}
+
+
+
+
