@@ -67,7 +67,7 @@ Jamie Finn
     <div class="col-xs-6 col-md-3">
     	<p>The great thing about using Laravel and the Stripe API is that they work tremendously well together to provide a simple billing system where people's details do not touch your server.
     	</p>
-	<p>This web application allows a user to subscribe to a small plan or large plan, enter their payment details and then be able to upgrade or cancel their subscription at any time. Their canceled contract also lasts until the end of the current month so that they still get their current months worth of subscription.</p>
+	<p>This web application allows a user to subscribe to a small plan or large plan, enter their payment details and then be able to upgrade or cancel their subscription at anytime. Their canceled contract also lasts until the end of the current month so that they still get their current months worth of subscription.</p>
         <p>GitHub source code: <a href="http://github.com/Jamie-Finn/Laravel-Stripe-subscription-billing">github.com/Jamie-Finn/Laravel-Stripe-subscription-billing</a></p>
     </div>
 </div>
