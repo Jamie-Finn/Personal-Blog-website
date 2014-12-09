@@ -14,7 +14,7 @@ Jamie Finn
 
 @section('content')
 
-<h1 id="portfolio_title">My Portfolio</h1>
+<h1 id="portfolio_title">My Portfolio</h1><p><i>Images can be clicked for fullscreen view</i></p>
 <hr>
 
 <div class="container">
@@ -25,9 +25,9 @@ Jamie Finn
     <div class="col-xs-6 col-md-3">
     	<p>I created this website for a local firm in Stoke-on-Trent who wanted a better 
     	looking website to be able to advertise their company better online.</p>
-	<p>It was completely revamped using Twitter Bootstrap as the foundation template for the design and then adding custom modifications in a separate CSS file to complete the layout(site also fully mobile responsive).</p>
-	<p>It was also built in the Laravel PHP framework which provides simple routing to allow site pages to be assigned to a route get method e.g about.blade.php file is assigned to "www.keidosalon.co.uk/about".</p>
-	<p><a href="www.keidosalon.co.uk">www.keidosalon.co.uk</a></p>
+		<p>It was completely revamped using Twitter Bootstrap as the foundation template for the design and then adding custom modifications in a separate CSS file to complete the layout(site also fully mobile responsive).</p>
+		<p>It was also built in the Laravel PHP framework which provides simple routing to allow site pages to be assigned to a route get method e.g about.blade.php file is assigned to "www.keidosalon.co.uk/about".</p>
+		<p><a href="http://www.keidosalon.co.uk">www.keidosalon.co.uk</a></p>
     </div>
 </div>
 
@@ -39,8 +39,8 @@ Jamie Finn
     <div class="col-xs-6 col-md-3">
     	<p>I created this blog template for a fictional gaming blog on my local machine. It enabled me to develop my skills in using content management systems in this case WordPress.
     	</p>
-	<p>As the PHP code was already provided baring a few tweaks, WordPress only teaches you what PHP does visually whereas I prefer to have full control in actually writing the code myself and to work within an MVC framework like Laravel.</p>
-	<p>The benefits of WordPress do far outweigh the negatives though and it is fantastic for being able to get a blog site up and running in as minimal time as possible.</p>
+		<p>As the PHP code was already provided baring a few tweaks, WordPress only teaches you what PHP does visually whereas I prefer to have full control in actually writing the code myself and to work within an MVC framework like Laravel.</p>
+		<p>The benefits of WordPress do far outweigh the negatives though and it is fantastic for being able to get a blog site up and running in as minimal time as possible.</p>
         <p>GitHub source code: <a href="http://github.com/Jamie-Finn/WordPress-gaming-blog">github.com/Jamie-Finn/WordPress-gaming-blog</a></p>
     </div>
 </div>
@@ -54,8 +54,8 @@ Jamie Finn
     <div class="col-xs-6 col-md-3">
     	<p>This personal blog and portfolio site that you are currently on is a custom built content management system made with the Laravel MVC framework.
     	</p>
-	<p>An MVC framework such as Laravel uses Object-Oriented PHP that allows you to set up and maintain larger web applications that were more difficult with procedural PHP. I was able to create a functional login and register system to access the admin pages of the site and be able to store submitted blog data into a MySql database.</p>
-    	<p>GitHub source code: <a href="http://github.com/Jamie-Finn/Personal-Blog-website">github.com/Jamie-Finn/Personal-Blog-website</a></p>
+		<p>An MVC framework such as Laravel uses Object-Oriented PHP that allows you to set up and maintain larger web applications that were more difficult with procedural PHP. I was able to create a functional login and register system to access the admin pages of the site and be able to store submitted blog data into a MySql database.</p>
+        <p>GitHub source code: <a href="http://github.com/Jamie-Finn/Personal-Blog-website">github.com/Jamie-Finn/Personal-Blog-website</a></p>
     </div>
 </div>
 
@@ -67,8 +67,51 @@ Jamie Finn
     <div class="col-xs-6 col-md-3">
     	<p>The great thing about using Laravel and the Stripe API is that they work tremendously well together to provide a simple billing system where people's details do not touch your server.
     	</p>
-	<p>This web application allows a user to subscribe to a small plan or large plan, enter their payment details and then be able to upgrade or cancel their subscription at anytime. Their canceled contract also lasts until the end of the current month so that they still get their current months worth of subscription.</p>
+		<p>This web application allows a user to subscribe to a small plan or large plan, enter their payment details and then be able to upgrade or cancel their subscription at anytime. Their canceled contract also lasts until the end of the current month so that they still get their current months worth of subscription.</p>
         <p>GitHub source code: <a href="http://github.com/Jamie-Finn/Laravel-Stripe-subscription-billing">github.com/Jamie-Finn/Laravel-Stripe-subscription-billing</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <h3>QR Code Generator using the endroid/QrCode library</h3>
+    
+    <a href="#myModal5" data-toggle="modal"><img class="col-xs-6 col-md-4" src="img/qrcode.png"   alt="QR Code Generator" /></a>
+
+    <div class="col-xs-6 col-md-3">
+        <p>The endroid/QrCode library provides ready-made methods that allow you to generate a QR code in an image format using PHP and then display it to the user so that they can scan it with their Smartphone.
+        </p>
+        <p>You can provide either a link to a website or just simple text that is then displayed to the user when they have scanned the code. If you click on the image on the left you will see it in higher quality and then you can scan it with your Smartphone which will contain a link to my personal blog site!</p>
+        <p>GitHub source code: <a href="http://github.com/Jamie-Finn/QR-Code-Generator-using-Endroid">github.com/Jamie-Finn/QR-Code-Generator-using-Endroid</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <h3>Login and Register system using OOP PHP</h3>
+    
+    <a href="#myModal6" data-toggle="modal"><img class="col-xs-6 col-md-4" src="img/loginreg.png"   alt="OOP Login and Register System login" /></a>
+
+    <div class="col-xs-6 col-md-3">
+        <p>This Login and Register authentication system was coded using Object-Oriented PHP.
+        </p>
+        <p>It allows the user to be able to register for an account, sign in and then be able to update their profile name and change their password. There is also a remember me functionality on the login page.</p>
+        <p>The authentication system is protected from CSRF and SQL injection by generating a token and using prepared statements.</p>
+        <p>This can be integrated with the To do list app below for more functionality.</p>
+        <p>GitHub source code: <a href="http://github.com/Jamie-Finn/Login-and-Register-system-using-OOP">github.com/Jamie-Finn/Login-and-Register-system-using-OOP</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <h3>To do list app using PHP</h3>
+    
+    <a href="#myModal7" data-toggle="modal"><img class="col-xs-6 col-md-4" src="img/todo.png"   alt="PHP To do list" /></a>
+
+    <div class="col-xs-6 col-md-3">
+        <p>This To do list app was coded using Object-Oriented PHP.
+        </p>
+        <p>It allows the user to be able to add a list item, mark it as done and then be able to undo the marked item or remove it from the list.</p>
+        <p>As stated with the Login and Register system, this To do app can be combined with it! as a proper authentication system is a better alternative than to simulate a user being signed in through a session.</p>
+        <p>The user being signed in was simulated as it helped when developing the app.</p>
+        <p>GitHub source code: <a href="http://github.com/Jamie-Finn/To-do-list-using-PHP">github.com/Jamie-Finn/To-do-list-using-PHP</a></p>
     </div>
 </div>
 
@@ -93,6 +136,22 @@ Jamie Finn
     <button class="close" data-dismiss="modal">&times;</button>
     <img class="col-xs-12 col-md-12" src="img/subscriptionhd.png"  alt="Subscription payments" />
  </div>
+
+ <div class="modal fade" id="myModal5">
+    <button class="close" data-dismiss="modal">&times;</button>
+    <img class="col-xs-12 col-md-12" src="img/qrcodehd.png"  alt="QR Code Generator" />
+ </div>
+
+ <div class="modal fade" id="myModal6">
+    <button class="close" data-dismiss="modal">&times;</button>
+    <img class="col-xs-12 col-md-12" src="img/loginreghd.png"  alt="OOP Login and Register system login" />
+ </div>
+
+ <div class="modal fade" id="myModal7">
+    <button class="close" data-dismiss="modal">&times;</button>
+    <img class="col-xs-12 col-md-12" src="img/todohd.png"  alt="PHP To do list" />
+ </div>
+
 <!--modal content ends-->
 
 @stop
