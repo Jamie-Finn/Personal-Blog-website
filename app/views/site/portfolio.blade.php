@@ -14,7 +14,7 @@ Jamie Finn
 
 @section('content')
 
-<h1 id="portfolio_title">My Portfolio</h1><p><i>Images can be clicked for fullscreen view</i></p>
+<h1 id="portfolio_title">My Portfolio/Personal projects</h1><p><i>Images can be clicked for fullscreen view</i></p>
 <hr>
 
 <div class="container">
@@ -115,10 +115,25 @@ Jamie Finn
     </div>
 </div>
 
+<div class="container">
+    <h3>Authentication system created in Laravel</h3>
+    
+    <a href="#myModal8" data-toggle="modal"><img class="col-xs-6 col-md-4" src="img/laravelauth.png"   alt="Laravel Authentication system" /></a>
+
+    <div class="col-xs-6 col-md-3">
+        <p>This Authentication system was created in Laravel
+        </p>
+        <p>It is similar to my OOP Login and Register system but this time it was built within a PHP framework.</p>
+        <p>It also includes some different functionality such as a Password reminder feature which sends an email to an authenticated user with a link that redirects them to the Reset password page. This works by generating a database table using Laravel's migrate feature and a controller which includes the process of allowing the user to reset their password.</p>
+        <p>The main benefit of using a PHP framework like Laravel for an authentication system is that it allows other developers familiar with Laravel to jump right in and begin to use it. Another advantage is that it automatically protects against SQL injection without the need to actually enter much code. You do still have to enter some code to protect against CSRF but again this can easily be done by using Laravel's features to be able to generate tokens for your form input.</p>
+        <p>GitHub source code: <a href="http://github.com/Jamie-Finn/Laravel-Authentication-system">github.com/Jamie-Finn/Laravel-Authentication-system</a></p>
+    </div>
+</div>
+
 
 <!--modal content-->
 <div class="modal fade" id="myModal1">
-   <button class="close" data-dismiss="modal">&times;</button>
+    <button class="close" data-dismiss="modal">&times;</button>
     <img class="col-xs-12 col-md-12" src="img/keidoexamplehd.png"  alt="Keido example" />
 </div>
 
@@ -150,6 +165,11 @@ Jamie Finn
  <div class="modal fade" id="myModal7">
     <button class="close" data-dismiss="modal">&times;</button>
     <img class="col-xs-12 col-md-12" src="img/todohd.png"  alt="PHP To do list" />
+ </div>
+
+ <div class="modal fade" id="myModal8">
+    <button class="close" data-dismiss="modal">&times;</button>
+    <img class="col-xs-12 col-md-12" src="img/laravelauthhd.png"  alt="Laravel Authentication system" />
  </div>
 
 <!--modal content ends-->
