@@ -14,7 +14,8 @@ Jamie Finn
 
 @section('content')
 
-<h1 id="portfolio_title">My Portfolio/Personal projects</h1><p><i>Images can be clicked for fullscreen view</i></p>
+<h1 id="portfolio_title">My Portfolio/Personal projects</h1>
+<p><i>Projects are listed in order of completion and the images can be clicked for fullscreen view</i></p>
 <hr>
 
 <div class="container">
