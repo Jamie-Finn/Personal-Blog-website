@@ -23,7 +23,7 @@ class HomeController extends BaseController {
 	public function search()
 	{
 		$input = Input::get('search');
-		$results = Post::where('body', 'LIKE', '%'.$input.'%')->get();
+		$results = Post::where('body', 'LIKE', '%'.$input.'%')->orderBy('created_at', 'desc')->get();
 		
 		return View::make('site.search')->with('results', $results);
 	}
