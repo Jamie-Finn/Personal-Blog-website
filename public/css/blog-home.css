@@ -113,6 +113,10 @@ body {
     margin-left: 20px;
 }
 
+.largeIcon {
+    font-size: 5em;
+}
+
 .modal .close {
     color: #fff;
     opacity: 1;
@@ -127,7 +131,3 @@ footer {
 #footerLink:hover {
 	text-decoration: none;
 }
-
-
-
-
