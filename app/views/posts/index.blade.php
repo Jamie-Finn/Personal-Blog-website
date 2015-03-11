@@ -6,7 +6,10 @@
 	{{ link_to_route('posts.create', 'Create a new post', null, array('class' => 'btn btn-primary')) }}
 </div>
 @if($posts->count())
-<h4>These are your current posts</h4>
+	<div class="col-md-12">
+		<h4>These are your current posts</h4>
+	</div>
+
 	<div class="col-md-12">
 		<table class="table table-bordered table-striped">
 			<thead>
@@ -36,9 +39,10 @@
 			@endforeach
 		</tbody>
 		</table>
+		{{ $posts->links() }}
 	</div>
-    @else
+@else
 	<div class="alert alert-info col-md-4" style="margin-top: 15px">You currently have no posts</div>
-	@endif
+@endif
 	
 @stop
