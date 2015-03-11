@@ -29,6 +29,10 @@
             <hr/>
             <p>My blog mainly contains articles about my random thoughts, sports, video games and the Web.</p>
           </div><!-- /well -->
+          
+          <a href="http://www.phptherightway.com">
+            <img src="http://www.phptherightway.com/images/banners/lg-rect-386x280.png" width="360" height="254" alt="PHP: The Right Way"/>
+          </a> 
       </div>
     </div>
 
