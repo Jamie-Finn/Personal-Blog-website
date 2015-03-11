@@ -12,14 +12,13 @@
             {{ Form::close()}}
             </div><!-- /input-group -->
           </div><!-- /well -->
-           
-                
-          <div class="well">
-            <h4>Search</h4>
+
+          <div class="well text-center">
+            <h4>Find me on Twitter!</h4>
             <hr/>
               <div class="row">
                 <div class="col-lg-12">
-                <p>Don't forget to use the search bar above to find a particular post! &middot; It is available on all pages for efficient search.</p>
+                  <a href="https://twitter.com/jays_blog"><i class="largeIcon fa fa-twitter"></i></a>
                 </div>                   
               </div>
           </div>
